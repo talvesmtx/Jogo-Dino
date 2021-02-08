@@ -1,0 +1,83 @@
+corpo {
+    fundo: # fafafa;
+}
+
+. dino {
+    largura: 60 px;
+    altura: 60 px;
+    imagem de fundo: url (.. / img / dino2.png);
+    posi\u00E7\u00E3o: absoluta;
+    inferior: 0;
+}
+
+corpo {
+    fundo: # fafafa;
+}
+
+. dino {
+    largura: 60 px;
+    altura: 60 px;
+    imagem de fundo: url (.. / img / dino2.png);
+    posi\u00E7\u00E3o: absoluta;
+    inferior: 0;
+}
+
+. cactus {
+    posi\u00E7\u00E3o: absoluta;
+    largura: 60 px;
+    altura: 60 px;
+    inferior: 0;
+    imagem de fundo: url (.. / img / cactus2.png);
+}
+
+. game-over {
+    alinhamento de texto: centro;
+    margem superior: 50 px;
+    fam\u00EDlia-fonte: arial;
+    cor: # ff6600;
+    tamanho da fonte: 50 px;
+}
+
+. creditos {
+    alinhamento de texto: centro;
+    margem superior: 50 px;
+    fam\u00EDlia-fonte: verdana;
+    cor: # 29a329;
+    tamanho da fonte: 30 px;
+}
+
+. links {
+    alinhamento de texto: centro;
+    margem superior: 50 px;
+    fam\u00EDlia-fonte: verdana;
+    cor: # 29a329;
+    tamanho da fonte: 15 px;
+}
+
+@keyframe slideright {
+    de {
+        posi\u00E7\u00E3o de fundo: 70000 %;
+    }
+    para {
+        posi\u00E7\u00E3o de fundo: 0;
+    }
+}
+
+. background {
+    posi\u00E7\u00E3o: absoluta;
+    inferior: 0;
+    imagem de fundo: url (.. / img / background2.png);
+    repeti\u00E7\u00E3o de fundo: repetir-x;
+    anima\u00E7\u00E3o: slideright 600 s linear infinito;
+    largura: 100 %;
+    altura: 200 px;
+}
+
+. background-final {
+    posi\u00E7\u00E3o: absoluta;
+    inferior: 0;
+    imagem de fundo: url (.. / img / background2.png);
+    repeti\u00E7\u00E3o de fundo: repetir-x;
+    largura: 100 %;
+    altura: 200 px;
+}
